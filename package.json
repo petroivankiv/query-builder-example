@@ -2,11 +2,12 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --mode dev --debug",
     "serve": "vite preview"
   },
   "dependencies": {
     "react": "^17.0.0",
+    "react-awesome-query-builder": "^4.3.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
